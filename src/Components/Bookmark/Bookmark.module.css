@@ -1,0 +1,22 @@
+.bookmark_container {
+  width: 32px;
+  height: 32px;
+  background: rgb(0, 0, 0, 0.5);
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+
+.bookmark_container:hover {
+  background: white;
+  cursor: pointer;
+}
+
+@media (min-width: 1400px) {
+  .bookmark_container:hover .bookmark_icon {
+    stroke: black;
+  }
+}
