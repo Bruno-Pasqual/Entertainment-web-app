@@ -1,0 +1,143 @@
+:root {
+  --dark-blue: #10141e;
+  --greyish-blue: #5a698f;
+  --red2: #fc4747;
+  --semi-dark-blue: #161d2f;
+}
+
+/* ! --- Estilização das fontes --- */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+input {
+  background: none;
+  border: none;
+  height: 37px;
+  border-bottom: 1px solid #5a698f;
+  padding: 0 0 0.25rem 1.5rem;
+  color: rgba(255, 255, 255, 0.507);
+  caret-color: red;
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+input:active,
+input:focus {
+  color: white;
+  outline: none;
+  border-color: white;
+}
+
+/* .inputLine:first-child {
+  margin: 40px 0 24px 0;
+} */
+
+.input_field {
+  width: 100%;
+  height: 37px;
+}
+
+.inputLine {
+  width: 100%;
+  position: relative;
+}
+
+.error_message {
+  color: #fc4747;
+  font-weight: 300;
+  font-size: 13px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  right: -30px;
+}
+
+.signup_message {
+  font-size: 15px;
+  color: white;
+  font-weight: 300;
+  text-align: center;
+}
+
+.signup_message span {
+  color: #fc4747;
+}
+
+.link {
+  color: #fc4747;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.login_container {
+  width: 400px;
+  background: var(--semi-dark-blue);
+  border-radius: 20px;
+  padding: 32px;
+  margin: 0 auto;
+}
+
+.idle_btn {
+  height: 48px;
+  background: var(--red2);
+  border: none;
+  font-family: Outfit;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  border-radius: 6px;
+  color: white;
+}
+
+.idle_btn:hover {
+  cursor: pointer;
+  background: white;
+  color: black;
+}
+
+.login_title {
+  font-family: Outfit;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.5px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.login_container_wrapper {
+  display: grid;
+
+  place-content: center;
+  padding-top: 78px;
+}
+
+.login_icon {
+  margin: 0 auto;
+  margin-bottom: 83px;
+}
+.parent_element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 88px;
+}
+
+@media (max-width: 470px) {
+  .login_container {
+    width: 327px;
+    padding: 24px;
+  }
+
+  .parent_element {
+    margin-top: 44px;
+  }
+}

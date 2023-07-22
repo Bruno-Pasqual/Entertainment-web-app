@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+:root {
+  --dark-blue: #10141e;
+  --greyish-blue: #5a698f;
+  --red2: #fc4747;
+  --semi-dark-blue: #161d2f;
+}
+
+/* ! --- Estilização das fontes --- */
+
+.headingL {
+  font-family: Outfit;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -0.5px;
+}
+
+.headingM {
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.headingS {
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.headingXS {
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.bodyM {
+  font-family: Outfit;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.bodyS {
+  font-family: Outfit;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  opacity: 0.75;
+}
+
+/* ! --- Estilização das fontes --- */
+
+body {
+  /* min-height: 100vh; */
+  background: var(--dark-blue);
+  padding-bottom: 2rem;
+}
+
+h3 {
+  font-size: 20px;
+  color: white;
+  font-weight: 300;
+  letter-spacing: -0.312px;
+}
